@@ -49,7 +49,7 @@ const Form = () => {
               className="form-control"
               type="text"
               placeholder="Order Number"
-              {...register("orderNo", {})}
+              {...register("orderNo")}
             />
             <label># Order No.</label>
           </div>
